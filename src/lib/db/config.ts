@@ -11,7 +11,7 @@ export const config: { [key: string]: DataConfig } = {
             "sprint":30,
             "gp":120
         },
-        "availableYears": [2018, 2019, 2020, 2021, 2022, 2023, 2024],
+        "availableYears": [2024],
         "sessions": ["fp1", "fp2", "fp3", "qualifying", "sprintQualifying", "sprint", "gp"]
     },
     "f1-academy": {
@@ -24,7 +24,7 @@ export const config: { [key: string]: DataConfig } = {
             "race2":20,
             "race3":30
         },
-        "availableYears": [2023, 2024],
+        "availableYears": [2024],
         "sessions": ["fp1", "fp2", "qualifying1", "qualifying2", "race1", "race2", "race3"]
     },
     "f2": {
@@ -34,7 +34,7 @@ export const config: { [key: string]: DataConfig } = {
             "sprint": 45,
             "feature": 60
         },
-        "availableYears": [2021, 2022, 2023, 2024],
+        "availableYears": [2024],
         "sessions": ["practice", "qualifying", "sprint", "feature"]
     },
     "f3": {
@@ -44,7 +44,7 @@ export const config: { [key: string]: DataConfig } = {
             "sprint": 40,
             "feature": 45
         },
-        "availableYears": [2021, 2022, 2023, 2024],
+        "availableYears": [2024],
         "sessions": ["practice", "qualifying", "sprint", "feature"]
     }
 }
