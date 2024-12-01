@@ -1,38 +1,18 @@
-# sv
+# <img src="https://raw.githubusercontent.com/lassewolpmann-org/f1-countdown-svelte-kit/main/static/favicon.png" alt="drawing" width="24"/> formulacountdown.com
+Source code for formulacountdown.com, a website created for FORMULA 1/2/3/Academy Fans to keep track of the schedule and never miss a race again.
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
+## Acknowledgments
+This project utilizes data from [sportstimes](https://github.com/sportstimes/f1/blob/main/LICENSE), which is licensed under the MIT License.
 
 ## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
 ```bash
+# clone project
+git clone https://github.com/lassewolpmann/formulacountdown.git
+cd formulacountdown/
+
+# install dependencies
+npm install
+
+# start development server
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
